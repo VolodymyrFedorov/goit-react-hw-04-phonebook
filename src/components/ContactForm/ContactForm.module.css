@@ -1,0 +1,60 @@
+.form_wrapper {
+  position: relative;
+  width: 350px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 25px;
+  border: 3px solid black;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #bad7e3;
+}
+
+.input {
+  margin-left: 15px;
+  border-radius: 5px;
+  background-color: #81ddeb;
+  border: 1px solid black;
+}
+
+.input:hover,
+.input:focus {
+  border: 1px solid green;
+}
+.button_add {
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: rgb(131, 174, 255);
+}
+
+.button_add:hover,
+.button_add:focus {
+  cursor: pointer;
+  background-color: rgb(4, 0, 255);
+  color: white;
+  border-radius: 5px;
+}
+
+.icon {
+  position: absolute;
+  top: 1px;
+  left: 5px;
+}
+
+.error_name {
+  color: red;
+  font-size: 12px;
+  position: absolute;
+  right: 20px;
+  top: 37px;
+}
+.error_number {
+  color: red;
+  font-size: 12px;
+  position: absolute;
+  top: 82px;
+  text-align: right;
+}

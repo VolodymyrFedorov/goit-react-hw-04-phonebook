@@ -1,0 +1,40 @@
+.list_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 3px solid black;
+  list-style: none;
+  width: 450px;
+  border-radius: 5px;
+  background-color: #acccda;
+  transition: scale 50ms;
+}
+
+.contact_wrp {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.list_item:hover,
+.list_item:focus {
+  font-weight: 500;
+}
+
+.button_delete {
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: rgb(213, 73, 73);
+}
+
+.button_delete:hover,
+.button_delete:focus {
+  cursor: pointer;
+  border: 2px solid red;
+  background-color: red;
+  font-weight: 700;
+  border-radius: 5px;
+  color: white;
+}
